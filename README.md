@@ -36,6 +36,8 @@ In this project, I built a content-based and demographic recommendation engine f
 
 # Data Wrangling and EDA on the dataset
 
+[Data Wrangling and EDA.ipynb]( https://drive.google.com/file/d/1xFhSQ44sb7nfNlDfwJFao2VeltIZO08S/view?usp=sharing)  ![image](https://user-images.githubusercontent.com/85933265/213908963-97c9a032-7a4f-4de4-8984-aa0b1454eedf.png)
+
 I merged both datasets for easier manipulation of the data. There were no missing values in the datasets. I did remove a column of duplicates of the titles of the movies. I analysed how the data was spread regarding the vote average in the bar plot below.
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/85933265/213908306-65d7f750-aa77-40b8-9fea-940a0fc9ae49.png">
@@ -47,6 +49,8 @@ Findings: In the line plot below, it is evident that the most popular movies hav
 The accuracy of predictions made by the recommendation system can be adapted using the “plot/description” of the movie. But the quality of suggestions can be further improved using the movie's metadata. Let’s say the query to our movie recommendation system is “The pirates of the Caribbean”. Then the predictions should also include movies directed by the film's director, and it should also have movies with the cast of the given query movie. I utilised the following features to personalise the recommendation: cast, crew, keywords, and genres. The movie data is in the form of lists containing strings, and I would need to convert the data into a safe and usable structure. I applied the literal_eval() function to those features and created a soup of all the metadata information extracted to input into the vectoriser.
 
 # Pre- Processing and Modelling
+
+[Pre- Processing and Modelling.ipynb]( https://drive.google.com/file/d/1j07yPSOW4pQyRFEticK_Po_-I6s_bnAN/view?usp=sharing)
 
 My original idea was to create a recommendation system focused on Content-based filtering, but I will also include demographic filtering. I will not be including collaboration-based filtering because I do not have a userID, which is necessary for collaborative filtering, and therefore another dataset would have to be used.
 
