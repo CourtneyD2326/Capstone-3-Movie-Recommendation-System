@@ -14,6 +14,8 @@ How can data from a movie-based platform recommend other movies to users based o
 
 # The Dataset
 
+[The Dataset is from kaggle]( https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) 
+
 The dataset contains the metadata (cast, crew, budget, etc..) of movies. Kaggle has removed the original version of this dataset per a DMCA takedown request from IMDB. To minimise the impact, Kaggle replaced it with a similar set of films and data fields from The Movie Database (TMDb) in accordance with their terms of use. There will be two datasets used: credits_data and movies_data. Both are CSV files, and a quick overview of the datasets are below: 
 
  <img width="850" alt="image" src="https://user-images.githubusercontent.com/85933265/213908203-75eb6404-b755-4e36-8ba7-b96ff02e8b36.png">
