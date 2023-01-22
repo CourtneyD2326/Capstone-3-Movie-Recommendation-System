@@ -36,7 +36,7 @@ In this project, I built a content-based and demographic recommendation engine f
 
 # Data Wrangling and EDA on the dataset
 
-[Data Wrangling and EDA.ipynb]( https://drive.google.com/file/d/1xFhSQ44sb7nfNlDfwJFao2VeltIZO08S/view?usp=sharing)  ![image](https://user-images.githubusercontent.com/85933265/213908963-97c9a032-7a4f-4de4-8984-aa0b1454eedf.png)
+[Data Wrangling and EDA.ipynb]( https://drive.google.com/file/d/1xFhSQ44sb7nfNlDfwJFao2VeltIZO08S/view?usp=sharing)
 
 I merged both datasets for easier manipulation of the data. There were no missing values in the datasets. I did remove a column of duplicates of the titles of the movies. I analysed how the data was spread regarding the vote average in the bar plot below.
 
